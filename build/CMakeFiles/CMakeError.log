@@ -1,0 +1,39 @@
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG failed with the following output:
+Change Dir: /Users/leikang/tinylang/build/CMakeFiles/CMakeScratch/TryCompile-aBELN9
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_71857 && [1/2] Building CXX object CMakeFiles/cmTC_71857.dir/src.cxx.o
+warning: unknown warning option '-Wclass-memaccess'; did you mean '-Wclass-varargs'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_71857
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG failed with the following output:
+Change Dir: /Users/leikang/tinylang/build/CMakeFiles/CMakeScratch/TryCompile-1QdYIs
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_d5978 && [1/2] Building CXX object CMakeFiles/cmTC_d5978.dir/src.cxx.o
+warning: unknown warning option '-Wsuggest-override'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+[2/2] Linking CXX executable cmTC_d5978
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /Users/leikang/tinylang/build/CMakeFiles/CMakeScratch/TryCompile-qUsazT
+
+Run Build Command(s):/usr/local/bin/ninja cmTC_e4aeb && [1/2] Building CXX object CMakeFiles/cmTC_e4aeb.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_e4aeb
+FAILED: cmTC_e4aeb 
+: && /Library/Developer/CommandLineTools/usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wstring-conversion -Wmisleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,--color-diagnostics CMakeFiles/cmTC_e4aeb.dir/src.cxx.o -o cmTC_e4aeb   && :
+ld: unknown option: --color-diagnostics
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+

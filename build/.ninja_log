@@ -1,0 +1,6 @@
+# ninja log v5
+5	476	1673866923408957662	lib/Basic/CMakeFiles/tinylangBasic.dir/Version.cpp.o	33c6011fe64d3bdb
+7	419	1673870393422736405	build.ninja	4a70ec4ca9ca7d3d
+476	583	1673866923522921000	lib/Basic/libtinylangBasic.a	d4b67838b3e8e429
+8	633	1673870400940050447	lib/Basic/CMakeFiles/tinylangBasic.dir/Version.cpp.o	daf5558bc4950f24
+633	701	1673870401016418000	lib/Basic/libtinylangBasic.a	d4b67838b3e8e429
